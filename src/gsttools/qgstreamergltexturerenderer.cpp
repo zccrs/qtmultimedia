@@ -37,7 +37,7 @@
 
 #include <QtGui/qevent.h>
 #include <QtWidgets/qapplication.h>
-#include <QtWidgets/qx11info_x11.h>
+#include <QtX11Extras/qx11info_x11.h>
 #include <QtCore/qdebug.h>
 #include <QtCore/qthread.h>
 

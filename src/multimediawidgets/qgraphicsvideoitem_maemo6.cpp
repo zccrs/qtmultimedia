@@ -70,7 +70,7 @@ public:
 } _initThreads;
 }
 
-Q_DECLARE_METATYPE(QVideoSurfaceFormat)
+//Q_DECLARE_METATYPE(QVideoSurfaceFormat)
 
 QT_BEGIN_NAMESPACE
 

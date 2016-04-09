@@ -38,7 +38,7 @@
 #include <QtCore/qvariant.h>
 #include <QtCore/qdebug.h>
 #include <QtGui/qpainter.h>
-#include <QtWidgets/qx11info_x11.h>
+#include <QtX11Extras/qx11info_x11.h>
 #include <qvideosurfaceformat.h>
 
 

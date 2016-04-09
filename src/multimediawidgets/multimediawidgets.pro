@@ -28,7 +28,7 @@ SOURCES += \
     qvideowidgetcontrol.cpp \
     qvideowidget.cpp
 
-maemo6 {
+*-maemo* {
     contains(QT_CONFIG, opengles2) {
         PRIVATE_HEADERS += qeglimagetexturesurface_p.h
         SOURCES += qeglimagetexturesurface.cpp

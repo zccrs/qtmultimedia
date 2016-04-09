@@ -48,6 +48,10 @@ typedef GstFocusMode GstPhotographyFocusMode;
 
 //#define CAMERABIN_DEBUG 1
 
+#ifndef G_VALUE_INIT
+#define G_VALUE_INIT {0,{{0}}}
+#endif
+
 QT_BEGIN_NAMESPACE
 
 CameraBinFocus::CameraBinFocus(CameraBinSession *session)

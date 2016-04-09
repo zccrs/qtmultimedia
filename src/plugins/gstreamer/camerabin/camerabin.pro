@@ -56,7 +56,7 @@ SOURCES += \
     $$PWD/camerabincapturebufferformat.cpp \
     $$PWD/camerabininfocontrol.cpp
 
-maemo6 {
+*-maemo* {
     HEADERS += \
         $$PWD/camerabuttonlistener_meego.h
 

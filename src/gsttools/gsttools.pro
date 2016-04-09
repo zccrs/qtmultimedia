@@ -92,7 +92,7 @@ equals(GST_VERSION,"0.10") {
         qvideosurfacegstsink.cpp \
         gstvideoconnector.c
 
-    maemo6 {
+    *-maemo* {
         PKGCONFIG_PRIVATE += qmsystem2
 
         contains(QT_CONFIG, opengles2):qtHaveModule(widgets) {
